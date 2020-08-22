@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		703E0A79242EA96F001E3AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703E0A78242EA96F001E3AFA /* AppDelegate.swift */; };
+		703E0A7B242EA96F001E3AFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703E0A7A242EA96F001E3AFA /* SceneDelegate.swift */; };
+		703E0A7D242EA96F001E3AFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703E0A7C242EA96F001E3AFA /* ContentView.swift */; };
+		703E0A7F242EA974001E3AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703E0A7E242EA974001E3AFA /* Assets.xcassets */; };
+		703E0A82242EA974001E3AFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703E0A81242EA974001E3AFA /* Preview Assets.xcassets */; };
+		703E0A85242EA974001E3AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703E0A83242EA974001E3AFA /* LaunchScreen.storyboard */; };
+		703E0A90242EA974001E3AFA /* Say_It_Out_LoudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703E0A8F242EA974001E3AFA /* Say_It_Out_LoudTests.swift */; };
+		703E0A9B242EA974001E3AFA /* Say_It_Out_LoudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703E0A9A242EA974001E3AFA /* Say_It_Out_LoudUITests.swift */; };
+		70D5C29F242F53DE0063DC4D /* PhraseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5C29E242F53DE0063DC4D /* PhraseList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		703E0A8C242EA974001E3AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 703E0A6D242EA96F001E3AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703E0A74242EA96F001E3AFA;
+			remoteInfo = "Say It Out Loud";
+		};
+		703E0A97242EA974001E3AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 703E0A6D242EA96F001E3AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703E0A74242EA96F001E3AFA;
+			remoteInfo = "Say It Out Loud";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		703E0A75242EA96F001E3AFA /* Say It Out Loud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Say It Out Loud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		703E0A78242EA96F001E3AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		703E0A7A242EA96F001E3AFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		703E0A7C242EA96F001E3AFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		703E0A7E242EA974001E3AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		703E0A81242EA974001E3AFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		703E0A84242EA974001E3AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		703E0A86242EA974001E3AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703E0A8B242EA974001E3AFA /* Say It Out LoudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Say It Out LoudTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		703E0A8F242EA974001E3AFA /* Say_It_Out_LoudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say_It_Out_LoudTests.swift; sourceTree = "<group>"; };
+		703E0A91242EA974001E3AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703E0A96242EA974001E3AFA /* Say It Out LoudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Say It Out LoudUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		703E0A9A242EA974001E3AFA /* Say_It_Out_LoudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say_It_Out_LoudUITests.swift; sourceTree = "<group>"; };
+		703E0A9C242EA974001E3AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709EEEC7242F722C00865AAB /* Say It Out Loud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Say It Out Loud.entitlements"; sourceTree = "<group>"; };
+		70D5C29E242F53DE0063DC4D /* PhraseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		703E0A72242EA96F001E3AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703E0A88242EA974001E3AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703E0A93242EA974001E3AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		703E0A6C242EA96F001E3AFA = {
+			isa = PBXGroup;
+			children = (
+				703E0A77242EA96F001E3AFA /* Say It Out Loud */,
+				703E0A8E242EA974001E3AFA /* Say It Out LoudTests */,
+				703E0A99242EA974001E3AFA /* Say It Out LoudUITests */,
+				703E0A76242EA96F001E3AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		703E0A76242EA96F001E3AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				703E0A75242EA96F001E3AFA /* Say It Out Loud.app */,
+				703E0A8B242EA974001E3AFA /* Say It Out LoudTests.xctest */,
+				703E0A96242EA974001E3AFA /* Say It Out LoudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		703E0A77242EA96F001E3AFA /* Say It Out Loud */ = {
+			isa = PBXGroup;
+			children = (
+				709EEEC7242F722C00865AAB /* Say It Out Loud.entitlements */,
+				703E0A78242EA96F001E3AFA /* AppDelegate.swift */,
+				703E0A7A242EA96F001E3AFA /* SceneDelegate.swift */,
+				703E0A7C242EA96F001E3AFA /* ContentView.swift */,
+				703E0A7E242EA974001E3AFA /* Assets.xcassets */,
+				703E0A83242EA974001E3AFA /* LaunchScreen.storyboard */,
+				703E0A86242EA974001E3AFA /* Info.plist */,
+				703E0A80242EA974001E3AFA /* Preview Content */,
+				70D5C29E242F53DE0063DC4D /* PhraseList.swift */,
+			);
+			path = "Say It Out Loud";
+			sourceTree = "<group>";
+		};
+		703E0A80242EA974001E3AFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				703E0A81242EA974001E3AFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		703E0A8E242EA974001E3AFA /* Say It Out LoudTests */ = {
+			isa = PBXGroup;
+			children = (
+				703E0A8F242EA974001E3AFA /* Say_It_Out_LoudTests.swift */,
+				703E0A91242EA974001E3AFA /* Info.plist */,
+			);
+			path = "Say It Out LoudTests";
+			sourceTree = "<group>";
+		};
+		703E0A99242EA974001E3AFA /* Say It Out LoudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				703E0A9A242EA974001E3AFA /* Say_It_Out_LoudUITests.swift */,
+				703E0A9C242EA974001E3AFA /* Info.plist */,
+			);
+			path = "Say It Out LoudUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		703E0A74242EA96F001E3AFA /* Say It Out Loud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703E0A9F242EA974001E3AFA /* Build configuration list for PBXNativeTarget "Say It Out Loud" */;
+			buildPhases = (
+				703E0A71242EA96F001E3AFA /* Sources */,
+				703E0A72242EA96F001E3AFA /* Frameworks */,
+				703E0A73242EA96F001E3AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Say It Out Loud";
+			productName = "Say It Out Loud";
+			productReference = 703E0A75242EA96F001E3AFA /* Say It Out Loud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		703E0A8A242EA974001E3AFA /* Say It Out LoudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703E0AA2242EA974001E3AFA /* Build configuration list for PBXNativeTarget "Say It Out LoudTests" */;
+			buildPhases = (
+				703E0A87242EA974001E3AFA /* Sources */,
+				703E0A88242EA974001E3AFA /* Frameworks */,
+				703E0A89242EA974001E3AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				703E0A8D242EA974001E3AFA /* PBXTargetDependency */,
+			);
+			name = "Say It Out LoudTests";
+			productName = "Say It Out LoudTests";
+			productReference = 703E0A8B242EA974001E3AFA /* Say It Out LoudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		703E0A95242EA974001E3AFA /* Say It Out LoudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703E0AA5242EA974001E3AFA /* Build configuration list for PBXNativeTarget "Say It Out LoudUITests" */;
+			buildPhases = (
+				703E0A92242EA974001E3AFA /* Sources */,
+				703E0A93242EA974001E3AFA /* Frameworks */,
+				703E0A94242EA974001E3AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				703E0A98242EA974001E3AFA /* PBXTargetDependency */,
+			);
+			name = "Say It Out LoudUITests";
+			productName = "Say It Out LoudUITests";
+			productReference = 703E0A96242EA974001E3AFA /* Say It Out LoudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		703E0A6D242EA96F001E3AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ryan Morrison";
+				TargetAttributes = {
+					703E0A74242EA96F001E3AFA = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					703E0A8A242EA974001E3AFA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 703E0A74242EA96F001E3AFA;
+					};
+					703E0A95242EA974001E3AFA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 703E0A74242EA96F001E3AFA;
+					};
+				};
+			};
+			buildConfigurationList = 703E0A70242EA96F001E3AFA /* Build configuration list for PBXProject "Say It Out Loud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 703E0A6C242EA96F001E3AFA;
+			productRefGroup = 703E0A76242EA96F001E3AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				703E0A74242EA96F001E3AFA /* Say It Out Loud */,
+				703E0A8A242EA974001E3AFA /* Say It Out LoudTests */,
+				703E0A95242EA974001E3AFA /* Say It Out LoudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		703E0A73242EA96F001E3AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703E0A85242EA974001E3AFA /* LaunchScreen.storyboard in Resources */,
+				703E0A82242EA974001E3AFA /* Preview Assets.xcassets in Resources */,
+				703E0A7F242EA974001E3AFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703E0A89242EA974001E3AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703E0A94242EA974001E3AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		703E0A71242EA96F001E3AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703E0A79242EA96F001E3AFA /* AppDelegate.swift in Sources */,
+				703E0A7B242EA96F001E3AFA /* SceneDelegate.swift in Sources */,
+				703E0A7D242EA96F001E3AFA /* ContentView.swift in Sources */,
+				70D5C29F242F53DE0063DC4D /* PhraseList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703E0A87242EA974001E3AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703E0A90242EA974001E3AFA /* Say_It_Out_LoudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703E0A92242EA974001E3AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703E0A9B242EA974001E3AFA /* Say_It_Out_LoudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		703E0A8D242EA974001E3AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 703E0A74242EA96F001E3AFA /* Say It Out Loud */;
+			targetProxy = 703E0A8C242EA974001E3AFA /* PBXContainerItemProxy */;
+		};
+		703E0A98242EA974001E3AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 703E0A74242EA96F001E3AFA /* Say It Out Loud */;
+			targetProxy = 703E0A97242EA974001E3AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		703E0A83242EA974001E3AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703E0A84242EA974001E3AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		703E0A9D242EA974001E3AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		703E0A9E242EA974001E3AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		703E0AA0242EA974001E3AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Say It Out Loud/Say It Out Loud.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Say It Out Loud/Preview Content\"";
+				DEVELOPMENT_TEAM = 895Q7MTPTC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Say It Out Loud/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.egodev.Say-It-Out-Loud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		703E0AA1242EA974001E3AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Say It Out Loud/Say It Out Loud.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Say It Out Loud/Preview Content\"";
+				DEVELOPMENT_TEAM = 895Q7MTPTC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Say It Out Loud/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.egodev.Say-It-Out-Loud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		703E0AA3242EA974001E3AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 895Q7MTPTC;
+				INFOPLIST_FILE = "Say It Out LoudTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.egodev.Say-It-Out-LoudTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Say It Out Loud.app/Say It Out Loud";
+			};
+			name = Debug;
+		};
+		703E0AA4242EA974001E3AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 895Q7MTPTC;
+				INFOPLIST_FILE = "Say It Out LoudTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.egodev.Say-It-Out-LoudTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Say It Out Loud.app/Say It Out Loud";
+			};
+			name = Release;
+		};
+		703E0AA6242EA974001E3AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 895Q7MTPTC;
+				INFOPLIST_FILE = "Say It Out LoudUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.egodev.Say-It-Out-LoudUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Say It Out Loud";
+			};
+			name = Debug;
+		};
+		703E0AA7242EA974001E3AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 895Q7MTPTC;
+				INFOPLIST_FILE = "Say It Out LoudUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.egodev.Say-It-Out-LoudUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Say It Out Loud";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		703E0A70242EA96F001E3AFA /* Build configuration list for PBXProject "Say It Out Loud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703E0A9D242EA974001E3AFA /* Debug */,
+				703E0A9E242EA974001E3AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703E0A9F242EA974001E3AFA /* Build configuration list for PBXNativeTarget "Say It Out Loud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703E0AA0242EA974001E3AFA /* Debug */,
+				703E0AA1242EA974001E3AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703E0AA2242EA974001E3AFA /* Build configuration list for PBXNativeTarget "Say It Out LoudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703E0AA3242EA974001E3AFA /* Debug */,
+				703E0AA4242EA974001E3AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703E0AA5242EA974001E3AFA /* Build configuration list for PBXNativeTarget "Say It Out LoudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703E0AA6242EA974001E3AFA /* Debug */,
+				703E0AA7242EA974001E3AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 703E0A6D242EA96F001E3AFA /* Project object */;
+}
